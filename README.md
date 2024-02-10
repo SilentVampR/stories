@@ -36,3 +36,7 @@ array(
 Original code for inspiration I took here - [FB-Stories](https://github.com/livebloggerofficial/FB-Stories/)
 
 Videos are taken from (https://www.pexels.com)
+
+### Demo
+
+https://silentvampr.github.io/stories/
