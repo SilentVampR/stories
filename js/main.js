@@ -2,49 +2,49 @@ const allStories = [
   {
     id: 0,
     caption: "Luna Belle",
-    imageUrl: "videos/thumbnails/thumb-1.png",
+    imageUrl: "videos/thumbnails/thumb-1.jpg",
     videoUrl: "videos/video-1.mp4",
   },
 
   {
     id: 1,
     caption: "Willow Grace",
-    imageUrl: "videos/thumbnails/thumb-2.png",
+    imageUrl: "videos/thumbnails/thumb-2.jpg",
     videoUrl: "videos/video-2.mp4",
   },
 
   {
     id: 2,
     caption: "Emma Smith",
-    imageUrl: "videos/thumbnails/thumb-3.png",
+    imageUrl: "videos/thumbnails/thumb-3.jpg",
     videoUrl: "videos/video-3.mp4",
   },
 
   {
     id: 3,
     caption: "Ruby Skye",
-    imageUrl: "videos/thumbnails/thumb-4.png",
+    imageUrl: "videos/thumbnails/thumb-4.jpg",
     videoUrl: "videos/video-4.mp4",
   },
 
   {
     id: 4,
     caption: "Live Blogger",
-    imageUrl: "videos/thumbnails/thumb-5.png",
+    imageUrl: "videos/thumbnails/thumb-5.jpg",
     videoUrl: "videos/video-5.mp4",
   },
 
   {
     id: 5,
     caption: "Hazel Jade",
-    imageUrl: "videos/thumbnails/thumb-6.png",
+    imageUrl: "videos/thumbnails/thumb-6.jpg",
     videoUrl: "videos/video-6.mp4",
   },
 
   {
     id: 6,
     caption: "Eden Faith",
-    imageUrl: "videos/thumbnails/thumb-7.png",
+    imageUrl: "videos/thumbnails/thumb-7.jpg",
     videoUrl: "videos/video-7.mp4",
   },
 ];
