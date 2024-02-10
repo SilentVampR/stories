@@ -4,7 +4,11 @@
 
 Slider with thumbnails, play + pause + sounud on/off controls, progress bar, auto closing after last video ends
 
-###  Dependencies
+### Defaults for video
+
+Autoplay, muted
+
+### Dependencies
 
 If you need to use swiper for previews - use local (included) or cdn versions of [swiper slider](https://swiperjs.com)
 
