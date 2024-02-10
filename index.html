@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/swiper-bundle.min.css" rel="stylesheet">
+  <script src="js/swiper-bundle.min.js"></script>
+  <title>Stories Update</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <div class="my-stories">
+    <div class="swiper-stories my-stories__content">
+      <div class="swiper-wrapper my-stories__wrapper">
+        <div class="swiper-slide my-stories__story" data-id="0" id="story-0">
+          <img src="videos/thumbnails/thumb-1.png">
+        </div>
+        <div class="swiper-slide my-stories__story" data-id="1" id="story-1">
+          <img src="videos/thumbnails/thumb-2.png">
+        </div>
+        <div class="swiper-slide my-stories__story" data-id="2" id="story-2">
+          <img src="videos/thumbnails/thumb-3.png">
+        </div>
+        <div class="swiper-slide my-stories__story" data-id="3" id="story-3">
+          <img src="videos/thumbnails/thumb-4.png">
+        </div>
+        <div class="swiper-slide my-stories__story" data-id="4" id="story-4">
+          <img src="videos/thumbnails/thumb-5.png">
+        </div>
+        <div class="swiper-slide my-stories__story" data-id="5" id="story-5">
+          <img src="videos/thumbnails/thumb-6.png">
+        </div>
+        <div class="swiper-slide my-stories__story" data-id="6" id="story-6">
+          <img src="videos/thumbnails/thumb-7.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="stories-modal">
+    <div class="stories-modal__content">
+      <div class="stories-modal__button stories-modal__button_prev"></div>
+      <div class="stories-modal__story">
+        <div class="stories-modal__controls-container">
+          <div class="stories-modal__progress-bar"></div>
+          <div class="stories-modal__close-btn"></div>
+          <div class="stories-modal__controls">
+            <button class="stories-modal__play-btn"></button>
+            <button class="stories-modal__sound-btn stories-modal__sound-btn_muted"></button>
+          </div>
+        </div>
+        <div class="stories-modal__caption"></div>
+        <video src="" autoplay playsinline muted class="stories-modal__video"></video>
+        <img src="" alt="" class="stories-modal__thumbnail">
+      </div>
+
+      <div class="stories-modal__button stories-modal__button_next"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    const swiperStories = new Swiper(".swiper-stories", {
+      slidesPerView: "auto",
+      spaceBetween: 24,
+      freeMode: false,
+      direction: "horizontal",
+      loop: false,
+      pagination: {
+        enabled: true,
+      },
+      navigation: {
+        enabled: true,
+      },
+      scrollbar: {
+        enabled: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
