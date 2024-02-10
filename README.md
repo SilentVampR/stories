@@ -2,7 +2,7 @@
 
 ## Main Feautures
 
-Slider with thumbnails, play + pause + sounud on/off controls, progress bar, auto closing after last video ends
+Stories with progress bar and controls like WhatsApp Stories: slider with tumbnails, play + pause + sounud on/off controls, progress bar, auto closing after last video ends
 
 ### Defaults for video
 
